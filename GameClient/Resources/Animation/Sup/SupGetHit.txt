@@ -1,0 +1,9 @@
+6
+SupGetHit
+100
+Sup_hit_ani-Sheet_6,0,0,116,116,0.5,0.5,
+Sup_hit_ani-Sheet_7,116,0,232,116,0.5,0.5,
+Sup_hit_ani-Sheet_8,232,0,348,116,0.5,0.5,
+Sup_hit_ani-Sheet_9,348,0,464,116,0.5,0.5,
+Sup_hit_ani-Sheet_10,464,0,580,116,0.5,0.5,
+Sup_hit_ani-Sheet_11,580,0,696,116,0.5,0.5,

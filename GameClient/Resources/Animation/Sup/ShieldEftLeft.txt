@@ -1,0 +1,9 @@
+6
+ShieldLeft
+100
+Sup_sld_eft_ani_left-Sheet_0,0,0,288,288,0.5,0.5,
+Sup_sld_eft_ani_left-Sheet_1,288,0,576,288,0.5,0.5,
+Sup_sld_eft_ani_left-Sheet_2,576,0,864,288,0.5,0.5,
+Sup_sld_eft_ani_left-Sheet_3,864,0,1152,288,0.5,0.5,
+Sup_sld_eft_ani_left-Sheet_4,1152,0,1440,288,0.5,0.5,
+Sup_sld_eft_ani_left-Sheet_5,1440,0,1728,288,0.5,0.5,

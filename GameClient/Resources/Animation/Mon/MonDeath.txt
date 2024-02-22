@@ -1,0 +1,9 @@
+6
+MonDeath
+100
+Mon_1_death_ani-Sheet_0,0,0,80,90,0.5,0.5,
+Mon_1_death_ani-Sheet_1,80,0,160,90,0.5,0.5,
+Mon_1_death_ani-Sheet_2,160,0,240,90,0.5,0.5,
+Mon_1_death_ani-Sheet_3,240,0,320,90,0.5,0.5,
+Mon_1_death_ani-Sheet_4,320,0,400,90,0.5,0.5,
+Mon_1_death_ani-Sheet_5,400,0,480,90,0.5,0.5,

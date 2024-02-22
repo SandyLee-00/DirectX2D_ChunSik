@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackGroundOver.h" />
+    <ClInclude Include="BarDealerZ.h" />
+    <ClInclude Include="BarHP.h" />
+    <ClInclude Include="ButtonNextPage.h" />
+    <ClInclude Include="ButtonOpeningSkip.h" />
+    <ClInclude Include="ButtonPrevPage.h" />
+    <ClInclude Include="ButtonToCredit.h" />
+    <ClInclude Include="ButtonToExit.h" />
+    <ClInclude Include="ButtonToOptions.h" />
+    <ClInclude Include="ButtonToRanking.h" />
+    <ClInclude Include="ButtonToGame.h" />
+    <ClInclude Include="ButtonToTitle.h" />
+    <ClInclude Include="ButtonTutorialSkip.h" />
+    <ClInclude Include="ClientDefines.h" />
+    <ClInclude Include="ClientHeaders.h" />
+    <ClInclude Include="CreditScene.h" />
+    <ClInclude Include="Dealer.h" />
+    <ClInclude Include="BackGroundObject.h" />
+    <ClInclude Include="EffectEachMonsterScore.h" />
+    <ClInclude Include="EffectFireBall.h" />
+    <ClInclude Include="EffectSupporterMove.h" />
+    <ClInclude Include="FrozEffect.h" />
+    <ClInclude Include="GameProcess.h" />
+    <ClInclude Include="Guardian.h" />
+    <ClInclude Include="GuardianAttackEffect.h" />
+    <ClInclude Include="RangeGuardianAttack.h" />
+    <ClInclude Include="MainGameScene.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterSpawner.h" />
+    <ClInclude Include="OpeningScene.h" />
+    <ClInclude Include="RankingRenewalScene.h" />
+    <ClInclude Include="RankingScene.h" />
+    <ClInclude Include="ShieldFromGuardian.h" />
+    <ClInclude Include="ShieldToDealer.h" />
+    <ClInclude Include="ShieldToGuardian.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="Supporter.h" />
+    <ClInclude Include="RangeSupporterSheild.h" />
+    <ClInclude Include="TextFrozenCount.h" />
+    <ClInclude Include="TextLeftTime.h" />
+    <ClInclude Include="TextPersonData.h" />
+    <ClInclude Include="TextScore.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="TutorialScene.h" />
+    <ClInclude Include="WhiteEffect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackGroundOver.cpp" />
+    <ClCompile Include="BarDealerZ.cpp" />
+    <ClCompile Include="BarHP.cpp" />
+    <ClCompile Include="ButtonNextPage.cpp" />
+    <ClCompile Include="ButtonOpeningSkip.cpp" />
+    <ClCompile Include="ButtonPrevPage.cpp" />
+    <ClCompile Include="ButtonToCredit.cpp" />
+    <ClCompile Include="ButtonToExit.cpp" />
+    <ClCompile Include="ButtonToOptions.cpp" />
+    <ClCompile Include="ButtonToRanking.cpp" />
+    <ClCompile Include="ButtonToGame.cpp" />
+    <ClCompile Include="ButtonToTitle.cpp" />
+    <ClCompile Include="ButtonTutorialSkip.cpp" />
+    <ClCompile Include="CreditScene.cpp" />
+    <ClCompile Include="Dealer.cpp" />
+    <ClCompile Include="BackGroundObject.cpp" />
+    <ClCompile Include="EffectEachMonsterScore.cpp" />
+    <ClCompile Include="EffectFireBall.cpp" />
+    <ClCompile Include="EffectSupporterMove.cpp" />
+    <ClCompile Include="FrozEffect.cpp" />
+    <ClCompile Include="GameProcess.cpp" />
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="Guardian.cpp" />
+    <ClCompile Include="GuardianAttackEffect.cpp" />
+    <ClCompile Include="RangeGuardianAttack.cpp" />
+    <ClCompile Include="MainGameScene.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterSpawner.cpp" />
+    <ClCompile Include="OpeningScene.cpp" />
+    <ClCompile Include="RankingRenewalScene.cpp" />
+    <ClCompile Include="RankingScene.cpp" />
+    <ClCompile Include="ShieldFromGuardian.cpp" />
+    <ClCompile Include="ShieldToDealer.cpp" />
+    <ClCompile Include="ShieldToGuardian.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="Supporter.cpp" />
+    <ClCompile Include="RangeSupporterSheild.cpp" />
+    <ClCompile Include="TextFrozenCount.cpp" />
+    <ClCompile Include="TextLeftTime.cpp" />
+    <ClCompile Include="TextPersonData.cpp" />
+    <ClCompile Include="TextScore.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="TutorialScene.cpp" />
+    <ClCompile Include="WhiteEffect.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{47ac450a-ff5a-4dc8-a25c-d056597b2174}</ProjectGuid>
+    <RootNamespace>GameClient</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Game</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>
+    </IncludePath>
+    <LibraryPath>$(SolutionDir)lib\fmod\x86;$(LibraryPath);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <ExternalIncludePath>$(SolutionDir)lib\fmod\inc;$(ExternalIncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>
+    </IncludePath>
+    <LibraryPath>$(SolutionDir)Releaselib\fmod\x86;$(LibraryPath);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <ExternalIncludePath>$(SolutionDir)Releaselib\fmod\inc;$(ExternalIncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\GameEnigneHeader;$(SolutionDir)lib\GraphicsEngineHeader;$(SolutionDir)lib\MathHeader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Math.lib;GraphicsEngine.lib;GameEnigne.lib;fmodL_vc.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;$(SolutionDir)lib\fmod\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Releaselib\GameEnigneHeader;$(SolutionDir)Releaselib\GraphicsEngineHeader;$(SolutionDir)Releaselib\MathHeader;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Math.lib;GraphicsEngine.lib;GameEnigne.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Releaselib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

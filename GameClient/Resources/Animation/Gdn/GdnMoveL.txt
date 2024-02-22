@@ -1,0 +1,7 @@
+4
+GdnMoveL
+100
+Gdn_move_left_ani-Sheet_0,0,0,154,162,0.5,0.5,
+Gdn_move_left_ani-Sheet_1,154,0,308,162,0.5,0.5,
+Gdn_move_left_ani-Sheet_2,308,0,462,162,0.5,0.5,
+Gdn_move_left_ani-Sheet_3,462,0,616,162,0.5,0.5,

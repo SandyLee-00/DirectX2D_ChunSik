@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Vector2">
+      <UniqueIdentifier>{63a7d77d-14fd-4f4a-aa80-27b326e584fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix">
+      <UniqueIdentifier>{951f798b-586c-414f-a09c-8bd38e96cb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BigInt">
+      <UniqueIdentifier>{0917d9b7-524c-4e17-82d7-b99bc4703a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random">
+      <UniqueIdentifier>{14007039-91e9-4ba2-9216-c1f7fcbd565d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Vector2</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="BigInt.cpp">
+      <Filter>BigInt</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2.h">
+      <Filter>Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h" />
+    <ClInclude Include="Matrix.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="BigInt.h">
+      <Filter>BigInt</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h" />
+  </ItemGroup>
+</Project>

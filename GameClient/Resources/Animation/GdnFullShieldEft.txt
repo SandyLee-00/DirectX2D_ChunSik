@@ -1,0 +1,7 @@
+4
+GdnSldFullEft
+100
+gdn_sld_ani2-Sheet_11,0,0,154,162,0.5,0.5,
+gdn_sld_ani2-Sheet_12,154,0,308,162,0.5,0.5,
+gdn_sld_ani2-Sheet_13,308,0,462,162,0.5,0.5,
+gdn_sld_ani2-Sheet_14,462,0,616,162,0.5,0.5,

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Component">
+      <UniqueIdentifier>{58dd5df7-7f63-4df8-925f-cbc344db5ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Rigidbody">
+      <UniqueIdentifier>{8c8b1dc4-0c1e-4b18-8bf1-bd471d9b2f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider">
+      <UniqueIdentifier>{916e6669-a639-4820-a7ed-5478e5afff98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{267af8e7-aad9-47c7-8922-e1b8f85b1afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Key">
+      <UniqueIdentifier>{821d3022-c90b-4905-9c6d-e10888e922f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Time">
+      <UniqueIdentifier>{5a8f6472-3e9b-4787-8289-1170f299b3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{890491fd-d883-4d9e-9e3e-c2512d0f017d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{7e759b7c-e339-4000-9b63-ead6a4d9155c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Transform">
+      <UniqueIdentifier>{6a8dcefb-a995-4491-a039-32f6cc402335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider\Box">
+      <UniqueIdentifier>{2c81483d-3254-404e-a814-fc2fe4fe802b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider\Circle">
+      <UniqueIdentifier>{c224bf20-47e1-402e-a5dd-d019a1395505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Collsion">
+      <UniqueIdentifier>{a4f1bdc0-5dd0-45bb-aaf6-9cc07ab9fd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Scene">
+      <UniqueIdentifier>{98b47eae-e644-4634-aa25-2eafa938bde4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{cb267632-5bec-4069-8428-e1db23068b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\ManagerSet">
+      <UniqueIdentifier>{0bc24bfe-2b44-48c4-be2d-d0ee80922821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\UI">
+      <UniqueIdentifier>{4ba4620d-32fa-47dd-981f-8ce62dc0c413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI">
+      <UniqueIdentifier>{e1d2f070-fb99-40b8-98c7-a5f94e7d6e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Collsion\QuadTree">
+      <UniqueIdentifier>{4000dc47-48f7-48f9-b61a-6ff94abb812a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AABBTree">
+      <UniqueIdentifier>{50cc5086-8241-4650-88ea-f8138499d24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Path">
+      <UniqueIdentifier>{6b9e8368-6067-46bb-9937-035a9536926f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Resource">
+      <UniqueIdentifier>{7b1ee465-8461-49b3-af97-5930e727102b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Animation">
+      <UniqueIdentifier>{92015a73-9080-499b-99dd-07cccff0ed30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Particle">
+      <UniqueIdentifier>{66583e48-ce97-4750-b1ae-23d6de71b7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectPool">
+      <UniqueIdentifier>{14053d4f-758b-45e3-b92d-2ec60fd44e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle">
+      <UniqueIdentifier>{d499f4bd-15d3-4bc1-b285-a263d34697ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animatior">
+      <UniqueIdentifier>{91bef47a-5044-4ea1-b453-90b5a79a23fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Managers\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>Managers\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Component\Collider\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Managers\Collsion</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Managers\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Component\Collider\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerSet.cpp">
+      <Filter>Managers\ManagerSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseEvent.cpp">
+      <Filter>Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBNode.cpp">
+      <Filter>AABBTree</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBTree.cpp">
+      <Filter>AABBTree</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>AABBTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardPhase.cpp">
+      <Filter>AABBTree</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>Managers\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Managers\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Component\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Object\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Animatior</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Managers\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>Managers\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Component\Collider\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Managers\Collsion</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Managers\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Component\Collider\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerSet.h">
+      <Filter>Managers\ManagerSet</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBNode.h">
+      <Filter>AABBTree</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBTree.h">
+      <Filter>AABBTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardPhase.h">
+      <Filter>AABBTree</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>AABBTree</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>Managers\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Managers\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Component\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Object\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Animatior</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

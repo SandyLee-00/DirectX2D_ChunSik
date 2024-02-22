@@ -1,0 +1,12 @@
+9
+GdnAtkL
+100
+gdn_atk_left-ani-Sheet_0,0,0,154,202,0.5,0.5,
+gdn_atk_left-ani-Sheet_1,154,0,308,202,0.5,0.5,
+gdn_atk_left-ani-Sheet_2,308,0,462,202,0.5,0.5,
+gdn_atk_left-ani-Sheet_3,462,0,616,202,0.5,0.5,
+gdn_atk_left-ani-Sheet_4,616,0,770,202,0.5,0.5,
+gdn_atk_left-ani-Sheet_5,770,0,924,202,0.5,0.5,
+gdn_atk_left-ani-Sheet_6,924,0,1078,202,0.5,0.5,
+gdn_atk_left-ani-Sheet_7,1078,0,1232,202,0.5,0.5,
+gdn_atk_left-ani-Sheet_8,1232,0,1386,202,0.5,0.5,

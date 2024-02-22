@@ -1,0 +1,6 @@
+3
+SupMoveL
+100
+Sup_move_ani_left_2,232,0,348,116,0.5,0.5,
+Sup_move_ani_left_1,116,0,232,116,0.5,0.5,
+Sup_move_ani_left_0,0,0,116,116,0.5,0.5,

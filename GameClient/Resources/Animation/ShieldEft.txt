@@ -1,0 +1,17 @@
+14
+ShieldEft
+100
+Sup_sld_ani-Sheet_0,0,0,136,136,0.5,0.5,
+Sup_sld_ani-Sheet_1,136,0,272,136,0.5,0.5,
+Sup_sld_ani-Sheet_2,272,0,408,136,0.5,0.5,
+Sup_sld_ani-Sheet_3,408,0,544,136,0.5,0.5,
+Sup_sld_ani-Sheet_4,544,0,680,136,0.5,0.5,
+Sup_sld_ani-Sheet_5,680,0,816,136,0.5,0.5,
+Sup_sld_ani-Sheet_6,816,0,952,136,0.5,0.5,
+Sup_sld_ani-Sheet_7,952,0,1088,136,0.5,0.5,
+Sup_sld_ani-Sheet_8,1088,0,1224,136,0.5,0.5,
+Sup_sld_ani-Sheet_9,1224,0,1360,136,0.5,0.5,
+Sup_sld_ani-Sheet_10,1360,0,1496,136,0.5,0.5,
+Sup_sld_ani-Sheet_11,1496,0,1632,136,0.5,0.5,
+Sup_sld_ani-Sheet_12,1632,0,1768,136,0.5,0.5,
+Sup_sld_ani-Sheet_13,1768,0,1904,136,0.5,0.5,

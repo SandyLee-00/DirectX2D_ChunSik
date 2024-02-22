@@ -1,0 +1,15 @@
+12
+DealSkillEft
+100
+Deal_skill_eft_ani-Sheet_0,0,0,96,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_1,96,0,192,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_2,192,0,288,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_3,288,0,384,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_4,384,0,480,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_5,480,0,576,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_6,576,0,672,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_7,672,0,768,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_8,768,0,864,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_9,864,0,960,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_10,960,0,1056,165,0.5,0.5,
+Deal_skill_eft_ani-Sheet_11,1056,0,1152,165,0.5,0.5,

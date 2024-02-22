@@ -1,0 +1,9 @@
+6
+DealGetHit
+100
+Deal_hit_ani-Sheet_18,0,0,116,116,0.5,0.5,
+Deal_hit_ani-Sheet_19,116,0,232,116,0.5,0.5,
+Deal_hit_ani-Sheet_20,232,0,348,116,0.5,0.5,
+Deal_hit_ani-Sheet_21,348,0,464,116,0.5,0.5,
+Deal_hit_ani-Sheet_22,464,0,580,116,0.5,0.5,
+Deal_hit_ani-Sheet_23,580,0,696,116,0.5,0.5,

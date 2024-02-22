@@ -1,0 +1,4 @@
+1
+GdnIdleL
+100
+Gdn_move_left_ani_0,0,0,154,162,0.5,0.5,

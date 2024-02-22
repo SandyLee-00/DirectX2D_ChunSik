@@ -1,0 +1,9 @@
+6
+GdnHitRight
+100
+gdn_hit_right-Sheet_12,0,0,154,162,0.5,0.5,
+gdn_hit_right-Sheet_13,154,0,308,162,0.5,0.5,
+gdn_hit_right-Sheet_14,308,0,462,162,0.5,0.5,
+gdn_hit_right-Sheet_15,462,0,616,162,0.5,0.5,
+gdn_hit_right-Sheet_16,616,0,770,162,0.5,0.5,
+gdn_hit_right-Sheet_17,770,0,924,162,0.5,0.5,

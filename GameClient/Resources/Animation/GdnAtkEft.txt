@@ -1,0 +1,7 @@
+4
+GgnAtkEft
+100
+Gdn_atk_eft-Sheet_0,0,0,96,165,0.5,0.5,
+Gdn_atk_eft-Sheet_1,96,0,192,165,0.5,0.5,
+Gdn_atk_eft-Sheet_2,192,0,288,165,0.5,0.5,
+Gdn_atk_eft-Sheet_3,288,0,384,165,0.5,0.5,

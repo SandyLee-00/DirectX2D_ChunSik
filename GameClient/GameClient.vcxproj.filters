@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1.Scenes">
+      <UniqueIdentifier>{36bef8bc-3059-44d2-bd45-c2c898c3c0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.UI">
+      <UniqueIdentifier>{ed015178-65d0-4d9c-a844-7517ae23a61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.Pawns">
+      <UniqueIdentifier>{d5b42476-f136-4fec-b7d6-c929c0d23ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.UI\Ranking">
+      <UniqueIdentifier>{b191e4c5-e399-4e22-aef4-c7e3496b46c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.UI\MainGame">
+      <UniqueIdentifier>{122ea434-8927-42ea-b82a-32e1ac52fed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.UI\Opening">
+      <UniqueIdentifier>{08963c72-76f9-49db-a4b7-81fee8ffc427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.UI\Title">
+      <UniqueIdentifier>{9f5cb9bc-fd9c-48da-a01f-61243e9f7431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4.Others">
+      <UniqueIdentifier>{4f884e6a-7a63-4f7e-93a7-42565970b952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5.GameProcess">
+      <UniqueIdentifier>{81dd4c08-8e8f-4176-84ed-97cfdd6f9cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.UI\Tutorial">
+      <UniqueIdentifier>{29628ca7-0b51-4233-9a00-8add6316769a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.UI\Credit">
+      <UniqueIdentifier>{43e2f177-b3dc-47f0-8b71-6d26cbf36de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Attachments">
+      <UniqueIdentifier>{96ef9911-ca93-4b28-a708-43d05f28128a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Attachments\Effects">
+      <UniqueIdentifier>{5f5a1186-d3c3-4a3c-816f-fbac44c6518d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dealer.cpp">
+      <Filter>3.Pawns</Filter>
+    </ClCompile>
+    <ClCompile Include="Guardian.cpp">
+      <Filter>3.Pawns</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>3.Pawns</Filter>
+    </ClCompile>
+    <ClCompile Include="Supporter.cpp">
+      <Filter>3.Pawns</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGameScene.cpp">
+      <Filter>1.Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningScene.cpp">
+      <Filter>1.Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>1.Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialScene.cpp">
+      <Filter>1.Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="RankingScene.cpp">
+      <Filter>1.Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonToCredit.cpp">
+      <Filter>2.UI\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonToOptions.cpp">
+      <Filter>2.UI\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonToRanking.cpp">
+      <Filter>2.UI\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonToGame.cpp">
+      <Filter>2.UI\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonOpeningSkip.cpp">
+      <Filter>2.UI\Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFrozenCount.cpp">
+      <Filter>2.UI\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TextLeftTime.cpp">
+      <Filter>2.UI\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TextScore.cpp">
+      <Filter>2.UI\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TextPersonData.cpp">
+      <Filter>2.UI\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterSpawner.cpp">
+      <Filter>4.Others</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>5.GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>5.GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonTutorialSkip.cpp">
+      <Filter>2.UI\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditScene.cpp">
+      <Filter>1.Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonToTitle.cpp">
+      <Filter>2.UI\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeGuardianAttack.cpp">
+      <Filter>6. Attachments</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeSupporterSheild.cpp">
+      <Filter>6. Attachments</Filter>
+    </ClCompile>
+    <ClCompile Include="BarDealerZ.cpp">
+      <Filter>6. Attachments</Filter>
+    </ClCompile>
+    <ClCompile Include="BarHP.cpp">
+      <Filter>6. Attachments</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldToDealer.cpp">
+      <Filter>6. Attachments</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldFromGuardian.cpp">
+      <Filter>6. Attachments</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundObject.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="ButtonNextPage.cpp">
+      <Filter>2.UI\Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonPrevPage.cpp">
+      <Filter>2.UI\Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="RankingRenewalScene.cpp">
+      <Filter>1.Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldToGuardian.cpp">
+      <Filter>6. Attachments</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundOver.cpp" />
+    <ClCompile Include="WhiteEffect.cpp" />
+    <ClCompile Include="ButtonToExit.cpp">
+      <Filter>2.UI\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectEachMonsterScore.cpp">
+      <Filter>6. Attachments\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectFireBall.cpp">
+      <Filter>6. Attachments\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSupporterMove.cpp">
+      <Filter>6. Attachments\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="FrozEffect.cpp">
+      <Filter>6. Attachments\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardianAttackEffect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dealer.h">
+      <Filter>3.Pawns</Filter>
+    </ClInclude>
+    <ClInclude Include="Guardian.h">
+      <Filter>3.Pawns</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>3.Pawns</Filter>
+    </ClInclude>
+    <ClInclude Include="Supporter.h">
+      <Filter>3.Pawns</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameScene.h">
+      <Filter>1.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningScene.h">
+      <Filter>1.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>1.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialScene.h">
+      <Filter>1.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingScene.h">
+      <Filter>1.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonToCredit.h">
+      <Filter>2.UI\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonToOptions.h">
+      <Filter>2.UI\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonToRanking.h">
+      <Filter>2.UI\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonToGame.h">
+      <Filter>2.UI\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonOpeningSkip.h">
+      <Filter>2.UI\Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFrozenCount.h">
+      <Filter>2.UI\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TextLeftTime.h">
+      <Filter>2.UI\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TextScore.h">
+      <Filter>2.UI\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPersonData.h">
+      <Filter>2.UI\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterSpawner.h">
+      <Filter>4.Others</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>5.GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientHeaders.h" />
+    <ClInclude Include="ButtonTutorialSkip.h">
+      <Filter>2.UI\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditScene.h">
+      <Filter>1.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonToTitle.h">
+      <Filter>2.UI\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientDefines.h" />
+    <ClInclude Include="RangeGuardianAttack.h">
+      <Filter>6. Attachments</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeSupporterSheild.h">
+      <Filter>6. Attachments</Filter>
+    </ClInclude>
+    <ClInclude Include="BarDealerZ.h">
+      <Filter>6. Attachments</Filter>
+    </ClInclude>
+    <ClInclude Include="BarHP.h">
+      <Filter>6. Attachments</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldToDealer.h">
+      <Filter>6. Attachments</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldFromGuardian.h">
+      <Filter>6. Attachments</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundObject.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="ButtonNextPage.h">
+      <Filter>2.UI\Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonPrevPage.h">
+      <Filter>2.UI\Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingRenewalScene.h">
+      <Filter>1.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="ShieldToGuardian.h">
+      <Filter>6. Attachments</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundOver.h" />
+    <ClInclude Include="WhiteEffect.h" />
+    <ClInclude Include="ButtonToExit.h">
+      <Filter>2.UI\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="FrozEffect.h">
+      <Filter>6. Attachments\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectEachMonsterScore.h">
+      <Filter>6. Attachments\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectFireBall.h">
+      <Filter>6. Attachments\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSupporterMove.h">
+      <Filter>6. Attachments\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardianAttackEffect.h" />
+  </ItemGroup>
+</Project>

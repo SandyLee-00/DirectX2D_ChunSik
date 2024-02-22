@@ -1,0 +1,9 @@
+6
+GdnDeathLeft
+100
+gdn_death_left-Sheet_0,0,0,154,162,0.5,0.5,
+gdn_death_left-Sheet_1,154,0,308,162,0.5,0.5,
+gdn_death_left-Sheet_2,308,0,462,162,0.5,0.5,
+gdn_death_left-Sheet_3,462,0,616,162,0.5,0.5,
+gdn_death_left-Sheet_4,616,0,770,162,0.5,0.5,
+gdn_death_left-Sheet_5,770,0,924,162,0.5,0.5,

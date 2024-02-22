@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Process">
+      <UniqueIdentifier>{1883102b-d913-4e31-84f9-c96a0317fbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry">
+      <UniqueIdentifier>{141ef430-0d26-423d-b0b4-38147a36d5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{6734bf26-8425-481a-9338-74bb500f1bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoParticle">
+      <UniqueIdentifier>{fa5252c5-f93d-46bc-81bb-93109c16196b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DemoProcess.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryuPoint.cpp">
+      <Filter>Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoScene.cpp" />
+    <ClCompile Include="DrawObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoParticle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DemoProcess.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoScene.h" />
+    <ClInclude Include="DrawObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoParticle.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,104 @@
+2023.8.7
+프로젝트가 시작했다...
+
+파일시스템
+https://en.cppreference.com/w/cpp/filesystem
+
+그래픽스 엔진에서만 쓰는 png를 로드하기 위해 쓰는 파일 찾는 함수를
+public으로 빼서 소리를 찾기 위해 쓰면 이상하지않을까?
+하지만 또 복붙해서 GameProcess 에서 또 파일매니저를 만드는 것도 이상하다고 생각한다.
+
+https://greensul.tistory.com/59
+이걸로 n번째 헛발질이다. 좀 외울때가 되었다.
+
+어쨌든 난 이펙트에 발만 담굴거다.
+
+2023.8.8
+교수님이 아침에 리플렉션에 대해 말한걸 적은게 다 컨플릭트 나서 날아갔다 어쩌고 컴포넌트 시스템이였는데..엔티티 컴포넌트 시스템 유니티 게임오브젝트도 같은 원리다.
+어....어차피 난 지금 애니메이션만 팔거니까
+3Q의 김예리나가 하겠지? 
+
+구성속성에 있는 기본 설정을 다 지워서 링커 오류가 났었다.
+오전이 다 날아가서 기분이 나쁘다.
+
+vC++디렉터리에서 기본 경로를 다 지워서 못찾았고, fmod의 64 dll을 가져와서 또 안됬었다. 86을 쓰면서...
+하지만 갱생가능한 재활용되는 쓰레기일것이다.
+
+세팅 제네럴 컨티뉴 메뉴에서 svn 세팅을 바꿀수있다.
+
+2023.8.9
+내가 알고보니 비트맵을 전부 0,0에서만 그릴수있게 해놓았었다. 대체 왜 그랬을까? 과거의 나를 이해할 수 가 없었다.
+
+2023.8.22
+프로젝트가 완성을 달려나간다. 문제는 이펙트가 어렵다 . 지금 이펙트를 했다가 다시 해제해야하는
+상황인데 연하 언니 말로는 백퍼버를 써야한다고 말한다. 
+
+아래는 코드다.
+
+/// 특정 메모리버퍼에 이미지들을 그린다.
+ID2D1Image* DRD2DEngine::DrawTo_MemoryBuffer(ID2D1Image* pTargerBuffer, std::vector<ID2D1Image*> images)
+{
+   /// 적당한 메모리 백버퍼(pTargerBuffer)가 만들어져 있다고 치고, 
+   ID2D1Image* oldTarget = NULL;
+
+   // 현재 타겟을 저장 해둔다. 그리고 새로 그릴 ID2D1Bitmap 으로 바꿈.
+   m_d2dContext->GetTarget(&oldTarget);
+   m_d2dContext->SetTarget(pTargerBuffer);
+   
+   // 백버퍼에 Image들을 모아서 그림.
+   m_d2dContext->BeginDraw();
+
+   for (ID2D1Image* pImage : images)
+   {
+      m_d2dContext->DrawImage(pImage);
+   }
+   
+   m_d2dContext->EndDraw();
+
+   // 비트맵에 해당되는 이미지가 그려졌으므로 해당 이미지(비트맵)을 리턴한다.
+   m_d2dContext->SetTarget(oldTarget);
+
+   oldTarget->Release();
+
+   return pTargerBuffer;
+}
+
+ID2D1Image* DRD2DEngine::ApplyEffect_ToImage(ID2D1Image* pTargetBuffer, ID2D1Effect* effect)
+{
+   //m_pRenderTarget->QueryInterface(&m_d2dContext);
+
+   //m_d2dContext->CreateEffect(CLSID_D2D1GaussianBlur, &gaussianBlurEffect);
+
+   //gaussianBlurEffect->SetInput(0, m_SpriteSheets[0]);
+   //gaussianBlurEffect->SetValue(D2D1_GAUSSIANBLUR_PROP_STANDARD_DEVIATION, 3.0f);
+   //gaussianBlurEffect->GetOutput(&pImage);
+
+   //ID2D1Bitmap* _sheet = m_SpriteSheets[0];   // 인덱스 접근 시 실패체크도 해야 함
+   //if (_sheet != NULL)
+   //{
+   //   D2D1_SIZE_U size2 = { (_sheet)->GetSize().width, (_sheet)->GetSize().height };
+   //   _sheet = ConvertImageToBitmap(pImage, size2);
+
+   //   m_SpriteSheets[0] = _sheet;
+   //}
+
+   //m_d2dContext->BeginDraw();
+   //m_d2dContext->DrawImage(gaussianBlurEffect);
+   //m_d2dContext->EndDraw();
+
+   return nullptr;
+}
+
+이게 교수님이 예시로 짜주신 코드라고 한다. 물론 전혀 알아듣지 못했지만 정 안되면 savage
+하면 된다. 
+
+사실 클라이언트 안하고 이펙트해서 좋긴함
+
+저번에..10덕이라는 말을 써서 교수님이 극대노하셔서 못물어보고있다. 무섭다. 선배님께 연락
+할까 고민도 했는데 그분도 프젝중이라 안될것같다....
+
+아니 왜 하나도 안그려지지? 이해를 할 수 없다. 
+
+2023.8.24
+오늘은 프로젝트 마지막날이다. 엔진하길 잘한거 같다. ㅎㅎ
+이펙트 두개 합치는거 안했다. 나중에 생각나면 합쳐봐야겠당~
